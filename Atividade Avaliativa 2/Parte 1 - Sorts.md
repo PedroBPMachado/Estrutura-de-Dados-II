@@ -26,7 +26,8 @@ Acontece quando a lista está em ordem inversa, quando o número de trocas e com
 * **Lógica de ordenação:** Particionamento e recursão. O array é dividido em subproblemas menores que são resolvidos independentemente.
 * **Complexidade no melhor caso:** $O(n \log n)$.
 ```
-Acontece quando o pivô escolhido divide o array exatamente ao meio em todas as etapas, resultando em uma árvore de recursão perfeitamente balanceada.
+Acontece quando o pivô escolhido divide o array exatamente ao meio em todas as etapas,
+resultando em uma árvore de recursão perfeitamente balanceada.
 ```
 * **Complexidade no caso médio:** $O(n \log n)$.
 ```
