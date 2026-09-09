@@ -24,9 +24,18 @@ Acontece quando a lista está em ordem inversa, quando o número de trocas e com
 ## Quick Sort
 * **Como funciona:** Baseia-se na estratégia de "Dividir para Conquistar". Escolhe-se um elemento como pivô e o array é particionado de modo que todos os elementos menores que o pivô fiquem à sua esquerda e os maiores à sua direita. O processo é aplicado recursivamente às partições.
 * **Lógica de ordenação:** Particionamento e recursão. O array é dividido em subproblemas menores que são resolvidos independentemente.
-* **Complexidade no melhor caso:** $O(n \log n)$ (quando o pivô divide o array exatamente ao meio em todas as etapas).
+* **Complexidade no melhor caso:** $O(n \log n)$.
+```
+Acontece quando o pivô escolhido divide o array exatamente ao meio em todas as etapas, resultando em uma árvore de recursão perfeitamente balanceada.
+```
 * **Complexidade no caso médio:** $O(n \log n)$.
-* **Complexidade no pior caso:** $O(n^2)$ (quando o pivô escolhido é sempre o menor ou o maior elemento, como em arrays já ordenados com escolha ingênua de pivô).
+```
+Acontece com entradas em ordem aleatória, onde as partições geram divisões relativamente equilibradas.
+```
+* **Complexidade no pior caso:** $O(n^2)$.
+```
+ocorre quando o pivô escolhido é sistematicamente o menor ou o maior elemento, gerando partições extremamente desbalanceadas.
+```
 * **Vantagens:** Altamente eficiente na prática para grandes volumes de dados; opera *in-place* (consome pouca memória auxiliar).
 * **Limitações:** Instável por padrão; dependência crítica da escolha do pivô para evitar o pior caso.
 * **Situações em que seu uso é adequado:** Ordenação geral de grandes volumes de dados onde o desempenho médio é prioridade.
