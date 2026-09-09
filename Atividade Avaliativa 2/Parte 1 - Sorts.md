@@ -1,4 +1,4 @@
-### PARTE 1 – PESQUISA: SORTS
+###### PARTE 1 – PESQUISA: SORTS
 
 #### Bubble Sort
 * **Como funciona:** O algoritmo percorre o array várias vezes, comparando pares de elementos adjacentes. Se dois elementos estiverem na ordem incorreta, eles são trocados. A cada passagem completa, o maior elemento restante "borbulha" para a sua posição correta no final do vetor.
