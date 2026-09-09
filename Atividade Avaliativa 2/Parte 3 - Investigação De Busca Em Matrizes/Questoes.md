@@ -39,3 +39,5 @@ A complexidade no pior caso é linear em relação ao número total de elementos
 correspondendo ao produto entre o número de linhas e o número de colunas.
 
 ```
+
+---
