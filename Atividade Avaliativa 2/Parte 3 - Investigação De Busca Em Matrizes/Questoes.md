@@ -11,14 +11,16 @@ Se o valor é encontrado logo nas primeiras verificações, o algoritmo encerra 
 * **b) O que acontece quando o elemento procurado não existe?**
 
 ```
-O algoritmo é forçado a percorrer todos os elementos da matriz do início ao fim sem interrupções, resultando no número máximo possível de comparações.
+O algoritmo é forçado a percorrer todos os elementos da matriz do início ao fim sem interrupções,
+resultando no número máximo possível de comparações.
 
 ```
 
 * **c) Qual é o pior caso da busca sequencial?**
 
 ```
-O pior caso ocorre quando o elemento procurado está localizado na última posição da matriz ou quando ele está ausente, exigindo a varredura completa de toda a estrutura.
+O pior caso ocorre quando o elemento procurado está localizado na última posição da matriz ou quando ele está ausente,
+exigindo a varredura completa de toda a estrutura.
 
 ```
 
@@ -33,6 +35,7 @@ Se as dimensões aumentam, o número máximo de comparações cresce na mesma pr
 * **e) Qual a complexidade da busca sequencial em uma matriz com m linhas e n colunas?**
 
 ```
-A complexidade no pior caso é linear em relação ao número total de elementos, correspondendo ao produto entre o número de linhas e o número de colunas.
+A complexidade no pior caso é linear em relação ao número total de elementos,
+correspondendo ao produto entre o número de linhas e o número de colunas.
 
 ```
