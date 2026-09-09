@@ -5,7 +5,8 @@
 * **Lógica de ordenação:** Utiliza dois loops aninhados. O loop externo controla o número de passagens, e o interno realiza as comparações e trocas adjacentes.
 * **Complexidade no melhor caso:** $O(n)$.
 ```
-Acontece quando a lista já está completamente ordenada, nesse caso como o código não faz nenhuma troca, ele encerra sua execução antecipadamente.
+Acontece quando a lista já está completamente ordenada, nesse caso como o código não faz nenhuma troca
+ele encerra sua execução antecipadamente.
 ```
 * **Complexidade no caso médio:** $O(n^2)$.
 ```
