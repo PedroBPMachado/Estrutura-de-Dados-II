@@ -4,15 +4,17 @@
 * **Como funciona:** O algoritmo percorre o array várias vezes, comparando pares de elementos adjacentes. Se dois elementos estiverem na ordem incorreta, eles são trocados. A cada passagem completa, o maior elemento restante "borbulha" para a sua posição correta no final do vetor.
 * **Lógica de ordenação:** Utiliza dois loops aninhados. O loop externo controla o número de passagens, e o interno realiza as comparações e trocas adjacentes.
 * **Complexidade no melhor caso:** $O(n)$.
-* 
+  
 Acontece quando a lista já está completamente ordenada, nesse caso como o código não faz nenhuma troca, ele encerra sua execução antecipadamente.
 
 * **Complexidade no caso médio:** $O(n^2)$.
-* 
+  
 Acontece quando os elementos da lista estão dispostos em ordem aleatória.
 
 * **Complexidade no pior caso:** $O(n^2)$.
+  
 Acontece quando a lista está em ordem inversa, quando o número de trocas e comparações é o maior possível
+
 * **Vantagens:** Simplicidade extrema de implementação e fácil compreensão conceitual; algoritmo estável.
 * **Limitações:** Altamente ineficiente para grandes volumes de dados devido ao crescimento quadrático das operações.
 * **Situações em que seu uso é adequado:** Pequenos conjuntos de dados ou coleções que já se encontram quase totalmente ordenadas.
