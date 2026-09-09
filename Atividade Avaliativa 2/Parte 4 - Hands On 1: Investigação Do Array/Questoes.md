@@ -1,3 +1,4 @@
+# ANÁLISE DAS QUESTÕES
 * **a) Quantas operações de percurso do array foram necessárias?**
 
 ```
