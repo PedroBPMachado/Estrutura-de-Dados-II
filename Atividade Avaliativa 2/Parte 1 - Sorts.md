@@ -50,9 +50,9 @@ ocorre quando o pivô escolhido é sistematicamente o menor ou o maior elemento,
 | **Melhor caso** | $O(n)$ | $O(n \log n)$ |
 | **Caso médio** | $O(n^2)$ | $O(n \log n)$ |
 | **Pior caso** | $O(n^2)$ | $O(n^2)$ |
-| **Uso de memória** | $O(1)$ (In-place) | $O(\log n)$ (Devido à pilha de recursão) |
+| **Uso de memória** | Baixo - $O(1)$ (In-place) | Maior - $O(\log n)$ (Devido à pilha de recursão) |
 | **Vantagem principal** | Simplicidade de código e estabilidade. | Velocidade superior em larga escala. |
-| **Limitação principal** | Desempenho quadrático para grandes entradas. | Pior caso quadrático se o pivô for mal escolhido; instável. |
+| **Limitação principal** | Desempenho inferior para grandes entradas. | Escolha ruim do pivô pode prejudicar o desempenho. |
 | **Aplicação recomendada** | Vetores muito pequenos ou quase ordenados. | Grandes conjuntos de dados genéricos. |
 
 ---
