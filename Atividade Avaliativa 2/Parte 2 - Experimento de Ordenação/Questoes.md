@@ -11,7 +11,7 @@ nas contagens de comparações e trocas em comparação ao Quick Sort.
 ```
 * **c) O que aconteceu quando o tamanho aumentou para 1.000 elementos?**
 ```
-  Houve uma discrepância drástica. O Bubble Sort exigiu centenas de milhares de operações (crescimento quadrático $O(n^2)$),
+Houve uma discrepância drástica. O Bubble Sort exigiu centenas de milhares de operações (crescimento quadrático $O(n^2)$),
 enquanto o Quick Sort processou os 1.000 elementos com apenas cerca de dez mil operações, demonstrando sua eficiência em escala.
 ```
 * **d) Qual algoritmo apresentou maior crescimento da quantidade de operações?**
