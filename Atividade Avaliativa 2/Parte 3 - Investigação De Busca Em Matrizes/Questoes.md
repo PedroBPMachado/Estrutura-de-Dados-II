@@ -4,7 +4,7 @@
 
 ```
 Porque a busca sequencial percorre a matriz elemento por elemento, linha por linha, a partir da primeira posição.
-Se o valor é encontrado logo nas primeiras verificações, o algoritmo encerra a execução imediatamente, sem precisar examinar o restante dos dados.
+Se o valor é encontrado logo nas primeiras verificações, o algoritmo encerra a execução imediatamente.
 
 ```
 
