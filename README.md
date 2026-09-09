@@ -1,4 +1,4 @@
-# Atividade Avaliativa – Estruturas de Dados 2
+# Atividade Avaliativa – Estruturas de Dados II
 Investigação experimental do comportamento de arrays, matrizes, algoritmos de ordenação e busca.
 
 ## Sobre o Projeto
