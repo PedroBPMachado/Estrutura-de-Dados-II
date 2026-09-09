@@ -10,8 +10,8 @@ Foram realizados 2 percursos completos pelo array, resultando em 20 acessos aos 
 
 ```
 A complexidade de tempo é linear, pois o algoritmo percorre o array um número constante de vezes, de modo que o tempo de
-execução cresce proporcionalmente ao tamanho da entrada. A complexidade de espaço também
-é linear para armazenar os dados no array.
+execução cresce proporcionalmente ao tamanho da entrada. A complexidade de espaço também é linear para
+armazenar os dados no array.
 
 ```
 
