@@ -19,7 +19,7 @@ enquanto o Quick Sort processou os 1.000 elementos com apenas cerca de dez mil o
 O Bubble Sort, cujo número de operações cresce de forma quadrática em relação ao tamanho da entrada.
 ```
 * **e) Os resultados experimentais são coerentes com as complexidades teóricas estudadas?**
-```
+```markdown
  Perfeitamente. Os dados refletem a curva teórica para o Bubble Sort:
 
 $$O(n^2)$$
