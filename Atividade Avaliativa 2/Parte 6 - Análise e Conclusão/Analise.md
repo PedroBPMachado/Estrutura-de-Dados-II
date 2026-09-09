@@ -22,8 +22,8 @@ lidando com grandes quantidades de elementos com uma fração das operações do
 
 ```
 Porque qualquer algoritmo de ordenação correto produz exatamente o mesmo resultado final (os elementos organizados em ordem).
-Analisar apenas o produto final oculta o esforço computacional, ignorando quantas comparações e movimentações foram necessárias n
-os bastidores, o que é o fator determinante para avaliar a eficiência e a escalabilidade de um algoritmo.
+Analisar apenas o produto final oculta o esforço computacional, ignorando quantas comparações e movimentações foram necessárias,
+o que é o fator determinante para avaliar a eficiência e a escalabilidade de um algoritmo.
 
 ```
 
