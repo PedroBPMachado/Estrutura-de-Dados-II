@@ -1,4 +1,7 @@
 import random
+import sys 
+
+sys.setrecursionlimit(10000) #Para evitar que o sistema interrompa a execução do quick sort em vetores grandes.
 
 def bubble_sort(arr):
     comp = trocas = 0
@@ -56,8 +59,9 @@ def quick_sort(arr):
             comp += 1
             if arr[j] <= pivot:
                 i += 1
-                arr[i], arr[j] = arr[j], arr[i]
-                mov += 1
+                if i != j:
+                    arr[i], arr[j] = arr[j], arr[i]
+                    mov += 1
                 
         arr[i + 1], arr[high] = arr[high], arr[i + 1]
         mov += 1
@@ -78,8 +82,10 @@ print(f"{'Tam':<6} | {'Bubble (C / T)':<18} | {'Insertion (C / M)':<18} | {'Sele
 print("-" * 90)
 
 for tam in tamanhos:
-    original = [random.randint(1, 10000) for _ in range(tam)]
-    
+    original = [random.randint(1, 10000) for _ in range(tam)] #Vetor aleatório
+    original = list(range(1, tam + 1)) #Vetor ordenado
+    original = list(range(tam, 0, -1)) #Vetor inversamente ordenado
+
     vetor_bubble = original.copy()
     vetor_insertion = original.copy()
     vetor_selection = original.copy()
@@ -91,3 +97,4 @@ for tam in tamanhos:
     q_c, q_m = quick_sort(vetor_quick)
     
     print(f"{tam:<6} | {b_c:>7} / {b_t:<8} | {i_c:>7} / {i_m:<8} | {s_c:>7} / {s_t:<8} | {q_c:>7} / {q_m:<8}")
+
